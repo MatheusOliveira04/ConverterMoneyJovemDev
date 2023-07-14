@@ -1,0 +1,7 @@
+<h1>Conversor de moedas</h1>
+<form>
+    <label for="txtConverter">Valor R$</label>
+    <input type="text" id="txtConverter" [(ngModel)]="real">
+    <button (click)="buscar()">buscar</button>
+</form>
+<app-table [valor]="valor"></app-table>
