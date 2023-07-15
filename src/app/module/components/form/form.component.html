@@ -1,7 +1,14 @@
 <h1>Conversor de moedas</h1>
 
-<div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnkosGoXqwvRk54YFRW-etviqDCRnuEdV8lfmt1Q
+NHQ&s" id="image">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnkosGoXqwvRk54YFRW-etviqDCRnuEdV8lfmt1Q
+NHQ&s" id="image2">
+
+<div id="style">
   <label for="txtConverter">Valor R$</label>
   <input type="text" id="txtConverter" [(ngModel)]="real" />
+  <button (click)="buscar()" id="buttonFind">buscar</button>
 </div>
-<app-table [real]="real"></app-table>
+<app-table [valor]="valor"></app-table>

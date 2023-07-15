@@ -1,0 +1,64 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+    border: 5px solid black;
+}
+
+#style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#style input{
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(163, 161, 161);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#style label {
+    font-size: 25px;
+    margin: 7px 15px;
+}
+
+
+#buttonFind{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: darkgreen;
+    font-weight: bold;
+    margin: 40px 5px 20px;
+    padding: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+#buttonFind:hover{
+    width: 210px;
+    height: 70px;
+    margin: 30px 5px 10px;
+    box-shadow: 10px 10px 5px green
+}
+
+img{
+    position: absolute;
+}
+
+img#image{
+    left: 150px;
+}
+
+img#image2{
+    left: 1100px;
+}

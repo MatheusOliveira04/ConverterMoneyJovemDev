@@ -1,0 +1,30 @@
+#format {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .definitionTable {
+    background-color: grey;
+    width: 100%;
+    border: 4px solid black;
+    border-radius: 10px;
+    table-layout: fixed;
+  }
+  
+  .definitionTable th,
+  .definitionTable td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .definitionTable thead {
+    background-color: white;
+  }
+  
+  .definitionTable th {
+    font-weight: bold;
+  }
+  
+

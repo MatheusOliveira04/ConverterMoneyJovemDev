@@ -1,13 +1,18 @@
-<div>
-  <button (click)="buscar()">buscar</button>
-  <dl>
-    <dt>Dólar:</dt>
-    <dd>{{ valor.dolar }}</dd>
-
-    <dt>Euro:</dt>
-    <dd>{{ valor.eur }}</dd>
-
-    <dt>Peso:</dt>
-    <dd>{{ valor.peso }}</dd>
-  </dl>
+<div id="format">
+  <table class="definitionTable">
+    <thead>
+      <tr>
+        <th>Dólar</th>
+        <th>Peso</th>
+        <th>Euro</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ valor.dolar | number:'1.2-2' }}</td>
+        <td>{{ valor.eur | number:'1.2-2' }}</td>
+        <td>{{ valor.peso | number:'1.2-2' }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
