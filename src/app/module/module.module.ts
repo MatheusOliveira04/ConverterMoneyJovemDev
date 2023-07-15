@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { FormComponent } from './components/form/form.component';
 import { TableComponent } from './components/table/table.component';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule} from '@angular/common/http';
 
 
 
